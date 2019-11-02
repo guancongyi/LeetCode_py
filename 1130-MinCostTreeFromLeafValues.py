@@ -1,5 +1,5 @@
 class Solution:
-    def mctFromLeafValues(self, arr: List[int]) -> int:
+    def mctFromLeafValues(self, arr) -> int:
         res = 0
         for i in range(0, len(arr)-1):
             mn = arr.index(min(arr))
