@@ -1,5 +1,5 @@
 class Solution:
-    def minPathSum(self, grid: List[List[int]]) -> int:
+    def minPathSum(self, grid) -> int:
         D = {}
         def opt(g, i, j):
             if i == len(g)-1 and j == len(g[i])-1: return g[i][j]
