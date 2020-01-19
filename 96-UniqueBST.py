@@ -1,3 +1,14 @@
+'''
+for each number i in n, we put it as the root node 
+and count all the possibilities
+
+                G(3)
+    (1,3)   +   (2,3)   +   (3,3)
+  G(0)*G(2)   G(1)*G(1)   G(2)*G(0) 
+
+'''
+
+
 class Solution:
     def numTrees(self, n) -> int:
         G = dict.fromkeys(range(n+1),0)

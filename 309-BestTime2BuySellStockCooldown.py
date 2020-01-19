@@ -1,3 +1,20 @@
+'''
+2 states: can buy and can sell
+dp based on them
+
+
+dp[][] == current best profit for buying or selling
+
+1. if I don't have any stock, which means i can either buy or wait
+dp[i][0] = max(dp[i-1][1]+p[i], dp[i-1][0] )
+
+2. if I have stock, which means I can either sell or keep, and wait for 2 days if I sell
+dp[i][1] = max(dp[i-2][0]-p[i], dp[i-1][1] )
+
+
+'''
+
+
 
 # def OPT(i, a, prices):
 #     if i > len(prices)-1:

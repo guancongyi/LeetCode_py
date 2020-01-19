@@ -1,3 +1,8 @@
+'''
+Using stack keep track the number of the longest valid parentheses so far
+'''
+
+
 class Solution:
     def longestValidParentheses(self, s) -> int:
         stack = [0]
