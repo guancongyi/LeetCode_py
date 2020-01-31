@@ -1,4 +1,5 @@
 # LeetCode_py
+DP: 39
 
 01/26/2020
 518 - Coin Change 2
@@ -22,3 +23,12 @@ find target based on binary search
 153 - SpiralMatrix
 Rotate matrix clockwise by 90 degree. first flip the matrix, the exchange symmetrically
 153 is straight forward
+
+
+01/31/2020
+75 - SortColors
+167 - TwoSum2
+75 is a two pointer question, using p1 p2 points to start and end
+if current item is 0, then swap with start,
+if current item is 2, swap with end.
+167 is same idea
