@@ -39,3 +39,5 @@ if current item is 2, swap with end.
 344 - ReverseString
 16 is similar to yesterday's question:
 for each element at index i in the list, go through the i+1th to last element in the list. Find out what is the closest.
+
+02/04/2020
