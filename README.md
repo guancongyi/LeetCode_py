@@ -41,3 +41,7 @@ if current item is 2, swap with end.
 for each element at index i in the list, go through the i+1th to last element in the list. Find out what is the closest.
 
 02/04/2020
+18 - 4Sum
+19 - RemoveNthFromList
+18 is using recursive way to solve k-1 sum, the base case is 2 sum algorithm, very clever. 
+19 is similar to fast and slow pointer problem, but here N is the distance between 2 pointers.
