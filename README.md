@@ -45,3 +45,10 @@ for each element at index i in the list, go through the i+1th to last element in
 19 - RemoveNthFromList
 18 is using recursive way to solve k-1 sum, the base case is 2 sum algorithm, very clever. 
 19 is similar to fast and slow pointer problem, but here N is the distance between 2 pointers.
+
+02/09/2020
+287 - FindDuplicateNumbers
+142 - LinkedListCycle2
+Both problem can be solved using two pointers and Floyd Cycle detection algorithm.
+First, find out if there are cycles, by using fast and slow pointers, name this the meet point
+Then from start to cycle's starting point, and from meet point to cycle's starting point, they must have same distances
