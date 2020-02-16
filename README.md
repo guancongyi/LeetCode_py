@@ -52,3 +52,15 @@ for each element at index i in the list, go through the i+1th to last element in
 Both problem can be solved using two pointers and Floyd Cycle detection algorithm.
 First, find out if there are cycles, by using fast and slow pointers, name this the meet point
 Then from start to cycle's starting point, and from meet point to cycle's starting point, they must have same distances
+
+02/16/2020
+22 - Generate Parentheses
+17 - LetterCombinationsOfPhoneNumbers
+Backtracking: Choice, Constraints, and Goal
+Q22 Use recursive function, choice is either add a '(' or ')', constraints are:
+1. ( is more than ) 
+2. ) is more than (
+goal is when length of the result == 2*length of limit. 
+Q17 Same thing. Choice is the corresponding letters of each digit, e.g. 2 corresponds
+to a, b, c. Constraints are these letters that we are allowed to choose from. Goal is 
+when the length of our combination == length of digits
