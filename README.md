@@ -64,3 +64,8 @@ goal is when length of the result == 2*length of limit.
 Q17 Same thing. Choice is the corresponding letters of each digit, e.g. 2 corresponds
 to a, b, c. Constraints are these letters that we are allowed to choose from. Goal is 
 when the length of our combination == length of digits
+
+02/17/2020
+39 - CombinationSum
+Same idea: Go through each number, see the difference between that number and target, if 
+the difference is 0, then append to res list. Otherwise, return nothing and keep on iterating on next number.
